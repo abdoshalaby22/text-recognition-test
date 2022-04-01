@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6008C2DB27E4CCB700B87B1D /* UpdateAndDeleteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6008C2DA27E4CCB700B87B1D /* UpdateAndDeleteTableViewController.swift */; };
+		600A4E5427E232D000403241 /* ScannedTextTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A4E5327E232D000403241 /* ScannedTextTableViewController.swift */; };
+		600A4E5827E36F0A00403241 /* SavedCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A4E5727E36F0A00403241 /* SavedCardsViewController.swift */; };
+		600A4E5B27E3709D00403241 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 600A4E5A27E3709D00403241 /* Realm */; };
+		600A4E5D27E3709D00403241 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 600A4E5C27E3709D00403241 /* RealmSwift */; };
+		600A4E5F27E3841200403241 /* SavedCardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A4E5E27E3841100403241 /* SavedCardsTableViewCell.swift */; };
+		600DE2ED27C90B8000D4F4CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600DE2EC27C90B8000D4F4CE /* AppDelegate.swift */; };
+		600DE2EF27C90B8000D4F4CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600DE2EE27C90B8000D4F4CE /* SceneDelegate.swift */; };
+		600DE2F127C90B8000D4F4CE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600DE2F027C90B8000D4F4CE /* ViewController.swift */; };
+		600DE2F427C90B8000D4F4CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600DE2F227C90B8000D4F4CE /* Main.storyboard */; };
+		600DE2F627C90B8400D4F4CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 600DE2F527C90B8400D4F4CE /* Assets.xcassets */; };
+		600DE2F927C90B8400D4F4CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 600DE2F727C90B8400D4F4CE /* LaunchScreen.storyboard */; };
+		60CB14EF27CCFB3A002D57F7 /* contatto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60CB14EE27CCFB3A002D57F7 /* contatto.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6008C2DA27E4CCB700B87B1D /* UpdateAndDeleteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateAndDeleteTableViewController.swift; sourceTree = "<group>"; };
+		600A4E5327E232D000403241 /* ScannedTextTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannedTextTableViewController.swift; sourceTree = "<group>"; };
+		600A4E5727E36F0A00403241 /* SavedCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCardsViewController.swift; sourceTree = "<group>"; };
+		600A4E5E27E3841100403241 /* SavedCardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedCardsTableViewCell.swift; sourceTree = "<group>"; };
+		600DE2E927C90B8000D4F4CE /* text recognition test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "text recognition test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		600DE2EC27C90B8000D4F4CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		600DE2EE27C90B8000D4F4CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		600DE2F027C90B8000D4F4CE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		600DE2F327C90B8000D4F4CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		600DE2F527C90B8400D4F4CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		600DE2F827C90B8400D4F4CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		600DE2FA27C90B8400D4F4CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60CB14EE27CCFB3A002D57F7 /* contatto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contatto.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		600DE2E627C90B8000D4F4CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600A4E5D27E3709D00403241 /* RealmSwift in Frameworks */,
+				600A4E5B27E3709D00403241 /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6008C2DC27E4E4D700B87B1D /* Table view controllers */ = {
+			isa = PBXGroup;
+			children = (
+				600A4E5327E232D000403241 /* ScannedTextTableViewController.swift */,
+				6008C2DA27E4CCB700B87B1D /* UpdateAndDeleteTableViewController.swift */,
+			);
+			path = "Table view controllers";
+			sourceTree = "<group>";
+		};
+		600DE2E027C90B8000D4F4CE = {
+			isa = PBXGroup;
+			children = (
+				600DE2EB27C90B8000D4F4CE /* text recognition test */,
+				600DE2F527C90B8400D4F4CE /* Assets.xcassets */,
+				600DE2FA27C90B8400D4F4CE /* Info.plist */,
+				600DE2EA27C90B8000D4F4CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		600DE2EA27C90B8000D4F4CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				600DE2E927C90B8000D4F4CE /* text recognition test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		600DE2EB27C90B8000D4F4CE /* text recognition test */ = {
+			isa = PBXGroup;
+			children = (
+				6048C3CA27DE975F001546E7 /* Models */,
+				6048C3CC27DE978C001546E7 /* Delegate */,
+				6048C3CB27DE977A001546E7 /* View Controllers */,
+				601EA3DE27E0CC0A008D56BA /* Storyboards */,
+				6008C2DC27E4E4D700B87B1D /* Table view controllers */,
+			);
+			path = "text recognition test";
+			sourceTree = "<group>";
+		};
+		601EA3DE27E0CC0A008D56BA /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				600DE2F227C90B8000D4F4CE /* Main.storyboard */,
+				600DE2F727C90B8400D4F4CE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		6048C3CA27DE975F001546E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				600A4E5E27E3841100403241 /* SavedCardsTableViewCell.swift */,
+				60CB14EE27CCFB3A002D57F7 /* contatto.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6048C3CB27DE977A001546E7 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				600A4E5727E36F0A00403241 /* SavedCardsViewController.swift */,
+				600DE2F027C90B8000D4F4CE /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6048C3CC27DE978C001546E7 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				600DE2EC27C90B8000D4F4CE /* AppDelegate.swift */,
+				600DE2EE27C90B8000D4F4CE /* SceneDelegate.swift */,
+			);
+			path = Delegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		600DE2E827C90B8000D4F4CE /* text recognition test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 600DE2FD27C90B8400D4F4CE /* Build configuration list for PBXNativeTarget "text recognition test" */;
+			buildPhases = (
+				600DE2E527C90B8000D4F4CE /* Sources */,
+				600DE2E627C90B8000D4F4CE /* Frameworks */,
+				600DE2E727C90B8000D4F4CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "text recognition test";
+			packageProductDependencies = (
+				600A4E5A27E3709D00403241 /* Realm */,
+				600A4E5C27E3709D00403241 /* RealmSwift */,
+			);
+			productName = "text recognition test";
+			productReference = 600DE2E927C90B8000D4F4CE /* text recognition test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		600DE2E127C90B8000D4F4CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					600DE2E827C90B8000D4F4CE = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 600DE2E427C90B8000D4F4CE /* Build configuration list for PBXProject "text recognition test" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 600DE2E027C90B8000D4F4CE;
+			packageReferences = (
+				600A4E5927E3709D00403241 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
+			productRefGroup = 600DE2EA27C90B8000D4F4CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				600DE2E827C90B8000D4F4CE /* text recognition test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		600DE2E727C90B8000D4F4CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600DE2F927C90B8400D4F4CE /* LaunchScreen.storyboard in Resources */,
+				600DE2F627C90B8400D4F4CE /* Assets.xcassets in Resources */,
+				600DE2F427C90B8000D4F4CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		600DE2E527C90B8000D4F4CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				600DE2F127C90B8000D4F4CE /* ViewController.swift in Sources */,
+				600A4E5F27E3841200403241 /* SavedCardsTableViewCell.swift in Sources */,
+				600A4E5427E232D000403241 /* ScannedTextTableViewController.swift in Sources */,
+				6008C2DB27E4CCB700B87B1D /* UpdateAndDeleteTableViewController.swift in Sources */,
+				600A4E5827E36F0A00403241 /* SavedCardsViewController.swift in Sources */,
+				60CB14EF27CCFB3A002D57F7 /* contatto.swift in Sources */,
+				600DE2ED27C90B8000D4F4CE /* AppDelegate.swift in Sources */,
+				600DE2EF27C90B8000D4F4CE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		600DE2F227C90B8000D4F4CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				600DE2F327C90B8000D4F4CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		600DE2F727C90B8400D4F4CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				600DE2F827C90B8400D4F4CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		600DE2FB27C90B8400D4F4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		600DE2FC27C90B8400D4F4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		600DE2FE27C90B8400D4F4CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBG943CYM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "text recognition test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdallah.text-recognition-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		600DE2FF27C90B8400D4F4CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DBG943CYM5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "text recognition test/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.abdallah.text-recognition-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		600DE2E427C90B8000D4F4CE /* Build configuration list for PBXProject "text recognition test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600DE2FB27C90B8400D4F4CE /* Debug */,
+				600DE2FC27C90B8400D4F4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		600DE2FD27C90B8400D4F4CE /* Build configuration list for PBXNativeTarget "text recognition test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				600DE2FE27C90B8400D4F4CE /* Debug */,
+				600DE2FF27C90B8400D4F4CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		600A4E5927E3709D00403241 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		600A4E5A27E3709D00403241 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 600A4E5927E3709D00403241 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		600A4E5C27E3709D00403241 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 600A4E5927E3709D00403241 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 600DE2E127C90B8000D4F4CE /* Project object */;
+}
